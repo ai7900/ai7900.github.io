@@ -1,12 +1,22 @@
+@keyframes colorRotate {
+  from { color: #6666ff;}
+  10% { color: #0099ff;}
+  50% { color: #00ff00;}
+  75% { color: #ff3399;}
+  100% { color: #6666ff;}
+}
+
 body{
 	font-family: "Century gothic", "Arial";
+	background-color: #7d7d7d;
 }
 
 #wrapper{
 	background-color: #EEE;
 	margin: 20px auto;
 	max-width: 1100px;
-	box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 50px #333;
+	border-radius: 5px;
 }
 
 /*  Barn till wrapper elementet */
@@ -14,6 +24,8 @@ body{
 	height: 70px;
 	background-color: #FFF;
 	line-height: 70px;
+	border-radius: 5px;
+	animation: colorRotate 6s linear 0s infinite; 
 }
 
 #wrapper > header img{
@@ -51,6 +63,8 @@ body{
 #wrapper > article img{
 	width: 50%;
 	float: right;
+	border: groove 3px #ddd;
+	border-radius: 5px;
 }
 
 #wrapper > article h2{
