@@ -1,0 +1,104 @@
+body{
+	font-family: "Century gothic", "Arial";
+}
+
+#wrapper{
+	background-color: #EEE;
+	margin: 20px auto;
+	max-width: 1100px;
+	box-shadow: 0 0 5px #666;
+}
+
+/*  Barn till wrapper elementet */
+#wrapper > header{
+	height: 70px;
+	background-color: #FFF;
+	line-height: 70px;
+}
+
+#wrapper > header img{
+	height: 60px;
+	margin-top: 5px;
+	margin-right: 20px;
+	float: left;
+}
+
+#wrapper > nav{
+	border-bottom: 5px solid #fff;
+	overflow: hidden;
+}
+
+#wrapper > nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper > nav li{
+	list-style: none;
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+#wrapper > article{
+	width: 46%;
+	padding: 2%;
+	float: left;
+	background-color: #fff;
+}
+
+#wrapper > article img{
+	width: 50%;
+	float: right;
+}
+
+#wrapper > article h2{
+	text-align: center;
+}
+
+#wrapper > footer{
+	text-align: left;
+	font-size: 12px;
+	overflow: hidden;
+	clear: both;		/* Clear innebär att elementet kommer att lägga sig under/efter de element som ligger före den */
+}
+
+@media screen and (max-width:480px){
+	
+	#wrapper > header{
+		overflow: hidden;
+		height: auto;
+	}
+	
+	#wrapper > header img{
+		display: block;
+		width: 50%;
+		height: auto;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+	
+	#wrapper > header h1{
+		font-size: 20px;
+		text-align: center;
+	}
+	
+	#wrapper > nav li{
+		float: none;
+		text-align: center;
+		display: block;
+		width: 100%;
+		border-bottom: 2px solid #fff;
+	}
+	
+	#wrapper > article img{
+		width: 100%;
+	}
+	
+	#wrapper > article{
+		width: 96%;
+	}
+	
+}
+	
