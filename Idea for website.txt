@@ -1,0 +1,8 @@
+Gör ett javascript som kan söka igenom valda mappar för att lägga till bilder och sånt på webbsidan.
+
+Ex. Progress mapp visas på en extern sida i websidan. För varje sub-map i Progress mappen så får man klicka in sig på ytterligare en extern sida. 
+
+Webbsidan kan se ut som typ en file-explorer :O
+Ya know, kinda retro, det är en början.
+
+Något måste däremot göras så att det inte tar för mycket minne att spara alla bilder på sidan.
