@@ -1,0 +1,7 @@
+body{
+	background-blend-mode: luminosity;
+}
+
+img{
+	filter: grayscale(100%);
+}
